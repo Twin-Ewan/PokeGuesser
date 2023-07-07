@@ -58,9 +58,9 @@ namespace Pokemon_Guesser
                         else Hint += "- ";
                     }
                     OutputBox.Items.Add(Hint);
-                    score -= 10;
+                    score -= Int32.Parse(PunishAmount.Text);
                 }
-                ScoreText.Text = "Score: " + score.ToString();
+                ScoreBox.Text = score.ToString();
             }
         }
 

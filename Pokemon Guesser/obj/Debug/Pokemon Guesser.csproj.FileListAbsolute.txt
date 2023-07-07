@@ -9,3 +9,25 @@ E:\Shared Files\Visual Studio\Pokemon Guesser\Pokemon Guesser\obj\Debug\Pokemon 
 E:\Shared Files\Visual Studio\Pokemon Guesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.CoreCompileInputs.cache
 E:\Shared Files\Visual Studio\Pokemon Guesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.exe
 E:\Shared Files\Visual Studio\Pokemon Guesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.pdb
+E:\Shared Files\Visual Studio\Pokemon Guesser\bin\Debug\Pokemon Guesser.exe.config
+E:\Shared Files\Visual Studio\Pokemon Guesser\bin\Debug\Pokemon Guesser.exe
+E:\Shared Files\Visual Studio\Pokemon Guesser\bin\Debug\Pokemon Guesser.pdb
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.AssemblyReference.cache
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.SuggestedBindingRedirects.cache
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon_Guesser.Form1.resources
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon_Guesser.Properties.Resources.resources
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.GenerateResource.cache
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.CoreCompileInputs.cache
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon Guesser.exe
+E:\Shared Files\Visual Studio\Pokemon Guesser\obj\Debug\Pokemon Guesser.pdb
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\bin\Debug\Pokemon Guesser.exe.config
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\bin\Debug\Pokemon Guesser.exe
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\bin\Debug\Pokemon Guesser.pdb
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.AssemblyReference.cache
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.SuggestedBindingRedirects.cache
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon_Guesser.Form1.resources
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon_Guesser.Properties.Resources.resources
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.GenerateResource.cache
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.CoreCompileInputs.cache
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.exe
+E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.pdb

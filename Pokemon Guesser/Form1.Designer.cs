@@ -48,6 +48,9 @@
             this.Gen9 = new System.Windows.Forms.CheckBox();
             this.PokeDisplay = new System.Windows.Forms.PictureBox();
             this.ScoreText = new System.Windows.Forms.Label();
+            this.PunishAmount = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ScoreBox = new System.Windows.Forms.TextBox();
             this.GenGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PokeDisplay)).BeginInit();
             this.SuspendLayout();
@@ -71,10 +74,11 @@
             // 
             // InputBox
             // 
+            this.InputBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.InputBox.Location = new System.Drawing.Point(19, 219);
             this.InputBox.Name = "InputBox";
             this.InputBox.Size = new System.Drawing.Size(413, 22);
-            this.InputBox.TabIndex = 13;
+            this.InputBox.TabIndex = 14;
             this.InputBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.InputBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.InputBox_KeyDown);
             // 
@@ -243,9 +247,37 @@
             this.ScoreText.AutoSize = true;
             this.ScoreText.Location = new System.Drawing.Point(279, 54);
             this.ScoreText.Name = "ScoreText";
-            this.ScoreText.Size = new System.Drawing.Size(56, 16);
+            this.ScoreText.Size = new System.Drawing.Size(46, 16);
             this.ScoreText.TabIndex = 19;
-            this.ScoreText.Text = "Score: 0";
+            this.ScoreText.Text = "Score:";
+            // 
+            // PunishAmount
+            // 
+            this.PunishAmount.Location = new System.Drawing.Point(282, 152);
+            this.PunishAmount.MaxLength = 2;
+            this.PunishAmount.Name = "PunishAmount";
+            this.PunishAmount.Size = new System.Drawing.Size(121, 22);
+            this.PunishAmount.TabIndex = 13;
+            this.PunishAmount.Text = "10";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(279, 133);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(124, 16);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Punishment Amount";
+            // 
+            // ScoreBox
+            // 
+            this.ScoreBox.Location = new System.Drawing.Point(282, 73);
+            this.ScoreBox.MaxLength = 12;
+            this.ScoreBox.Name = "ScoreBox";
+            this.ScoreBox.ReadOnly = true;
+            this.ScoreBox.Size = new System.Drawing.Size(121, 22);
+            this.ScoreBox.TabIndex = 12;
+            this.ScoreBox.Text = "0";
             // 
             // Form1
             // 
@@ -253,6 +285,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1062, 485);
+            this.Controls.Add(this.ScoreBox);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.PunishAmount);
             this.Controls.Add(this.ScoreText);
             this.Controls.Add(this.PokeDisplay);
             this.Controls.Add(this.OutputBox);
@@ -293,6 +328,9 @@
         private System.Windows.Forms.Button SettingsSave;
         private System.Windows.Forms.PictureBox PokeDisplay;
         private System.Windows.Forms.Label ScoreText;
+        private System.Windows.Forms.TextBox PunishAmount;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox ScoreBox;
     }
 }
 
