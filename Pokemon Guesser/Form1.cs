@@ -18,14 +18,15 @@ namespace Pokemon_Guesser
         List<String> PokeDex = new List<String>();
 
         Random rnd = new Random();
-        string DisplayPokemon, Hint, PokeName, number = string.Empty;
+        string DisplayPokemon, PokeName, number = string.Empty;
+        StringBuilder Hint = new StringBuilder();
         int score;
 
         public Form1()
         {
             InitializeComponent();
         }
-        
+
         public void MakePokemon()
         {
             int RNG = rnd.Next(Pokemon.Count);
@@ -35,7 +36,7 @@ namespace Pokemon_Guesser
 
         private void InputBox_KeyDown(object sender, KeyEventArgs e)
         {
-            if(DisplayPokemon == null || InputBox.Text == "") return;
+            if (DisplayPokemon == null || InputBox.Text == "") return;
 
             if (e.KeyCode == Keys.Return)
             {
@@ -45,19 +46,29 @@ namespace Pokemon_Guesser
                 if (Guess == DisplayPokemon)
                 {
                     score += 100;
-                    OutputBox.Items.Add("The Pokémon was indeed " + Guess + "!");
+                    OutputBox.Items.Insert(0, "The Pokémon was indeed " + Guess + "!");
                     MakePokemon();
                 }
                 else
                 {
-                    Hint = string.Empty;
-                    for (int i = 0; i < DisplayPokemon.Length; i++)
+                    Hint.Clear();
+                    for (int i = 0; i < DisplayPokemon.Length; i++) Hint.Append('-');
+
+                    int numChar = 0;
+                    int numhints = 0;
+                    while (numhints < rnd.Next(3) + 1)
                     {
-                        int RNG = rnd.Next(4);
-                        if (RNG == 0) Hint += DisplayPokemon[i];
-                        else Hint += "- ";
-                    }
-                    OutputBox.Items.Add(Hint);
+                        int RNG = (rnd.Next(4));
+                        if (RNG == 0) 
+                        {
+                            Hint[numChar] = DisplayPokemon[numChar];
+                            numhints++;
+                        }
+
+                        if (numChar == DisplayPokemon.Length - 1) numChar = 0;
+                        else numChar++;
+                    } 
+                    OutputBox.Items.Insert(0, Hint);
                     score -= Int32.Parse(PunishAmount.Text);
                 }
                 ScoreBox.Text = score.ToString();
@@ -96,7 +107,7 @@ namespace Pokemon_Guesser
                     PokeName = string.Empty;
                     number = string.Empty;
 
-                    while(FileLine[i] != ',')
+                    while (FileLine[i] != ',')
                     {
                         PokeName += FileLine[i];
                         i++;
@@ -114,7 +125,7 @@ namespace Pokemon_Guesser
                 FileLine = TxTFile.ReadLine();
                 PokeNum++;
             }
-            if(Pokemon.Count > 0) MakePokemon();
+            if (Pokemon.Count > 0) MakePokemon();
         }
     }
 }

@@ -31,3 +31,13 @@ E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csp
 E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.CoreCompileInputs.cache
 E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.exe
 E:\Shared Files\Github\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.pdb
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\bin\Debug\Pokemon Guesser.exe.config
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\bin\Debug\Pokemon Guesser.exe
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\bin\Debug\Pokemon Guesser.pdb
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.AssemblyReference.cache
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon_Guesser.Form1.resources
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon_Guesser.Properties.Resources.resources
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.GenerateResource.cache
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.csproj.CoreCompileInputs.cache
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.exe
+C:\Users\Ewan\Documents\GitHub\PokeGuesser\Pokemon Guesser\obj\Debug\Pokemon Guesser.pdb
