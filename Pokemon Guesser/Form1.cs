@@ -98,7 +98,7 @@ namespace Pokemon_Guesser
                     if (!Gen6.Checked && ((PokeNum + 1) >= 650 && (PokeNum + 1) <= 721)) Vaild = false;
                     if (!Gen7.Checked && ((PokeNum + 1) >= 722 && (PokeNum + 1) <= 809)) Vaild = false;
                     if (!Gen8.Checked && ((PokeNum + 1) >= 810 && (PokeNum + 1) <= 905)) Vaild = false;
-                    if (!Gen9.Checked && ((PokeNum + 1) >= 906 && (PokeNum + 1) <= 1025)) Vaild = false;
+                    if (!Gen9.Checked && ((PokeNum + 1) >= 906 && (PokeNum + 1) <= 1008)) Vaild = false;
                 }
 
                 if (Vaild)

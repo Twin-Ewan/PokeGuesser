@@ -1006,20 +1006,3 @@ roaring moon,1005
 iron valiant,1006
 koraidon,1007
 miraidon,1008
-walking wake,1009
-iron leaves,1010
-dipplin,1011
-poltchageist,1012
-sinistcha,1013
-okidogi,1014
-munkidori,1015
-fezandipiti,1016
-ogerpon,1017
-archaludon,1018
-hydrapple,1019
-gouging fire,1020
-raging bolt,1021
-iron boulder,1022
-iron crown,1023
-terapagos,1024
-percharunt,1025
